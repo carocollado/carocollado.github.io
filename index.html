@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Inicio</title>
 </head>
 
 <body class="contenedor-index">
@@ -20,7 +21,7 @@
             <li><a href="./pages/nosotros.html">Nosotros</a></li>
             <li><a href="./pages/productos.html">Productos</a></li>
             <li><a href="./pages/contacto.html">Contacto</a></li>
-            <li><a href="./pages/dondecomprar.html">Ubicación</a></li>
+            <li><a href="./pages/dondecomprar.html">Dónde comprar?</a></li>
         </ul>
         
     </nav>
@@ -29,21 +30,35 @@
 
     <main class="contenedor-img">
 
-        <div class="imagenesindex">
-        <img src="https://img.freepik.com/foto-gratis/vista-superior-kombucha-casera-frutas_501050-537.jpg?t=st=1658417491~exp=1658418091~hmac=1dbc79f4d7c44ade2a4dc85186c2137397194a74c9d58f8a2916402acf2b6fca&w=1380">
-        </div>
-
-        <div class="imagenesindex">
-        <img src="https://img.freepik.com/foto-gratis/surtido-vista-superior-deliciosa-bebida-kombucha_23-2148895717.jpg?t=st=1658417774~exp=1658418374~hmac=f88e12b3d42e2d5e5baa405da6b082416db0f2ebd2f51c092cfdd108bf92ec37&w=1380">
-        </div>
-
-        <div class="imagenesindex">
-        <img src="https://as2.ftcdn.net/v2/jpg/02/18/94/19/1000_F_218941930_X0odlGhxqvWZk24QNh0XRapUCgPB6Q0T.jpg">
-        </div>
-
-        <div class="imagenesindex">
-        <img src="https://img.freepik.com/foto-gratis/mujer-vestido-cafeteria-verano-disfrutando-vaso-cerveza-kombucha-fresca_343596-6209.jpg?w=1800&t=st=1659350193~exp=1659350793~hmac=7d8c4160c8bf23daf217414d0adcaa131a80882d368174bd3793ead7c1af9d0c">
-        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/foto-gratis/vista-superior-kombucha-casera-frutas_501050-537.jpg?t=st=1658417491~exp=1658418091~hmac=1dbc79f4d7c44ade2a4dc85186c2137397194a74c9d58f8a2916402acf2b6fca&w=1380"" class="d-block w-100 imagenesindex">
+              </div>
+              <div class="carousel-item">
+                <img src="https://as2.ftcdn.net/v2/jpg/02/18/94/19/1000_F_218941930_X0odlGhxqvWZk24QNh0XRapUCgPB6Q0T.jpg" class="d-block w-100 imagenesindex">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/foto-gratis/mujer-vestido-cafeteria-verano-disfrutando-vaso-cerveza-kombucha-fresca_343596-6209.jpg?w=1800&t=st=1659350193~exp=1659350793~hmac=7d8c4160c8bf23daf217414d0adcaa131a80882d368174bd3793ead7c1af9d0c" class="d-block w-100 imagenesindex">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/foto-gratis/surtido-vista-superior-deliciosa-bebida-kombucha_23-2148895717.jpg?t=st=1658417774~exp=1658418374~hmac=f88e12b3d42e2d5e5baa405da6b082416db0f2ebd2f51c092cfdd108bf92ec37&w=1380" class="d-block w-100 imagenesindex">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
     </main>
 
@@ -65,6 +80,7 @@
         <a href="https://es.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
         </div>
     </footer>
-    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

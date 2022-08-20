@@ -42,6 +42,7 @@ body {
     color: #000000;
     font-size: 30px;
     margin-right: 30px;
+    text-decoration: none;
 }
 
 /*Index*/
@@ -78,8 +79,8 @@ body {
 
 .imagenesindex {
     display: flex;
-    width: 700px;
-    height: 400px; 
+    width: 800px;
+    height: 600px;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -149,7 +150,7 @@ body {
 .contenedor-contacto {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 200px 2fr 1fr;
+    grid-template-rows: 200px auto 1fr;
     grid-template-areas:
     "header header"
     "main main"
@@ -177,7 +178,7 @@ footer {
 }
 
 .tituloContacto {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 10px;
     margin-right: 30px;
     width: 30vw;
@@ -187,8 +188,9 @@ footer {
 
 
 .cuadroContacto {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right: 10px;
+    width: 50%;
 }
 
 /*Dónde comprar */
@@ -271,6 +273,10 @@ footer {
 @media (max-width: 900px) {
     .navegacion {
         display: none;
+        }
+    .imagenesindex {
+            height: 450px;
+        }
 }
 
 @media (max-width: 440px) {
@@ -284,7 +290,7 @@ footer {
         height: 100px;
     }
 
-    }
+    
     .contenedor-cuadrocontacto {
         display: flex;
         justify-content: space-around;
@@ -296,6 +302,11 @@ footer {
     }
     .mailFooter {
         display: none;
+    }
+
+    .rrssFooter {
+        display: flex;
+        justify-content: space-around;
     }
     .contenedorMapa {
         display: flex;
@@ -356,7 +367,6 @@ footer {
     }
 
     .imagenesindex {
-        width: 400px;
-        height: 300px;
+        height: 350px;
     }
 }
