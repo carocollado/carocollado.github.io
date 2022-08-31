@@ -1,0 +1,48 @@
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.copy {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.mailFooter {
+    display: flex;
+    text-decoration: underline;
+}
+
+.rrssFooter {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+
+.bi-envelope {
+    font-size: $rrss-size;
+}
+
+
+.bi-facebook {
+    color: $rrss-color;
+    font-size: $rrss-size;
+}
+
+.bi-instagram {
+    color: $rrss-color;
+    font-size: $rrss-size;
+}
+
+.bi-whatsapp {
+    color: $rrss-color;
+    font-size: $rrss-size;
+}
+
+.bi-linkedin {
+    color: $rrss-color;
+    font-size: $rrss-size;
+}
