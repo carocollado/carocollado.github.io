@@ -1,0 +1,27 @@
+//dónde comprar
+
+.contenedorMapa {
+    display: flex;
+    justify-content: space-around;
+    .descripcionMapa {
+        margin-top: 150px;
+        margin-left: 10px;
+        margin-right: 30px;
+        align-items: center;
+        ul{
+            li{
+                text-decoration: underline;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 30px;
+            }
+        }
+    }
+    .Mapa {
+        margin-top: 100px;
+        margin-right: 10px;
+    }
+}
+
+
+

@@ -22,21 +22,22 @@ body {
     justify-content: space-between;
     position: sticky;
     top: 0px;
-}
-
-.navegacion {
-    display: flex;
-    ul {
+    .navegacion {
         display: flex;
-        align-items: center;
-    }
-    li {
-        a{
-            color: #000000;
-            font-size: 30px;
-            margin-right: 30px;
-            text-decoration: none;
+        ul {
+            display: flex;
+            align-items: center;
+        }
+        li {
+            a{
+                color: #000000;
+                font-size: 30px;
+                margin-right: 30px;
+                text-decoration: none;
+            }
         }
     }
 }
+
+
 
