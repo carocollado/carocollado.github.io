@@ -12,20 +12,33 @@
 </head>
 <body>
 
-    <header class="encabezado">
+    <header class="">
 
-        <a href="../index.html"><img src="../assets/img/logo_transparent.png" width="200px" height="200px" class="encabezado-img"></img></a>
+        <nav class="navbar navbar-expand-lg navbar-light nav-propio text-end w-100">
 
-    <nav class="navegacion">
-
-        <ul>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./dondecomprar.html">Dónde comprar?</a></li>
-        </ul>
-
-    </nav>
+          <div class="container-fluid">
+            <a href="../index.html"><img src="../assets/img/logo_transparent.png" width="150px" class="encabezado-img"></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto fs-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./dondecomprar.html">Dónde comprar?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
     </header>
 
