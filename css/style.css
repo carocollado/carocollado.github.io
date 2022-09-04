@@ -18,26 +18,12 @@ body {
   min-height: 100%;
 }
 
-.encabezado {
-  display: flex;
-  background-color: #b8e2d4;
-  justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}
-.encabezado .navegacion {
-  display: flex;
-}
-.encabezado .navegacion ul {
-  display: flex;
-  align-items: center;
-}
-.encabezado .navegacion li a {
-  color: #000000;
-  font-size: 30px;
-  margin-right: 30px;
-  text-decoration: none;
+.nav-propio {
+  background: linear-gradient(to right, rgb(184, 226, 212), rgba(218, 218, 199, 0.485));
+  top: 0%;
+  z-index: 999;
+  position: absolute;
+  width: 100vw;
 }
 
 .contenedor-index {
@@ -55,17 +41,22 @@ body {
 
 .contenedorNosotros {
   display: flex;
+  margin-top: 100px;
 }
 .contenedorNosotros .descripcion {
   margin-top: 150px;
   margin-left: 10px;
   margin-right: 30px;
-  width: 30vw;
+  width: 40vw;
   align-items: center;
 }
 .contenedorNosotros .videoNuestro {
   margin-top: 100px;
   margin-right: 10px;
+}
+
+.contenedor-productos {
+  margin-top: 180px;
 }
 
 .tituloProductos {
@@ -100,41 +91,19 @@ body {
   text-align: center;
 }
 
-.contenedor-contacto {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 200px auto 1fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
-
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-  display: flex;
-  justify-content: space-around;
-}
-
-footer {
-  grid-area: footer;
-}
-
 .contenedor-cuadrocontacto {
   display: flex;
   justify-content: space-around;
+  margin-top: 120px;
 }
-
-.tituloContacto {
+.contenedor-cuadrocontacto .tituloContacto {
   margin-top: 100px;
   margin-left: 10px;
   margin-right: 30px;
   width: 30vw;
   align-items: center;
 }
-
-.cuadroContacto {
+.contenedor-cuadrocontacto .cuadroContacto {
   margin-top: 70px;
   margin-right: 10px;
   width: 50%;
@@ -143,6 +112,7 @@ footer {
 .contenedorMapa {
   display: flex;
   justify-content: space-around;
+  margin-top: 100px;
 }
 .contenedorMapa .descripcionMapa {
   margin-top: 150px;
