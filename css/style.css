@@ -42,12 +42,6 @@ body {
 .contenedorProductos {
   margin-top: 180px;
 }
-.contenedorProductos .titulo {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
 
 .contenedorContacto {
   margin-top: 180px;
@@ -70,7 +64,7 @@ body {
 
 .titulos {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 30px;
   color: #000000;
