@@ -1,40 +1,16 @@
 //pagina productos
-.contenedor-productos {
+.contenedorProductos {
     margin-top: 180px;
-}
-.tituloProductos {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    .contenedorEspecialidades {
-        display: flex;
-        .cardEspecialidades {
-            width: 25vw;
-            .cardImg {
-                img {
-                    width: 100%;
-            }
-            }
-            .sabor {
-                font-weight: bolder;
-                text-transform: uppercase;
-                text-decoration: underline;
-                text-align: center;
-            }
-            .ingredientes {
-                text-align: center;
-            }
-        }
+    .titulo{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
     }
 }
+
+
+
 
 
 

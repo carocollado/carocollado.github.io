@@ -3,34 +3,10 @@
     font-weight: bold;
     margin-left: 5px;
 }
-.mailFooter {
-    display: flex;
-    text-decoration: underline;
-    .bi-envelope {
-        font-size: $rrss-size;
-    }
+
+.bi {
+    @extend %botonRrss
 }
-    
-.bi-facebook {
-    color: $rrss-color;
-    font-size: $rrss-size;
-}
-    
-.bi-instagram {
-    color: $rrss-color;
-    font-size: $rrss-size;
-}
-    
-.bi-whatsapp {
-    color: $rrss-color;
-    font-size: $rrss-size;
-}
-    
-.bi-linkedin {
-    color: $rrss-color;
-    font-size: $rrss-size;
-}       
-    
 
 
 

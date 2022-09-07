@@ -1,20 +1,5 @@
-//index
-
-.contenedor-index {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px  auto 1fr;
-    grid-template-areas:
-    "header header"
-    "section section"
-    "footer footer"
-    ;
-    .encabezado {
-        grid-area: header;
-    }
-    .contenedor-img {
-        grid-area: section;
-    }
+.contenedorInicio {
+    margin-top: 180px;
 }
 
 

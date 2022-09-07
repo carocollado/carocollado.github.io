@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="Contacta con nosotros para obtener más información acerca de nuestras bebidas fermentadas.">
+    <meta name="keywords" content="KOMBUCHA, PROBIOTICOS, FERMENTADOS, ALIMENTOS VIVOS, BEBIDAS PROBIOTICAS">
 
     <title>Contacto</title>
 </head>
 
-<body class="contenedor-contacto">
+<body>
 
     <header class="">
 
@@ -24,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto fs-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                  <a class="nav-link active text-dark" aria-current="page" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./productos.html">Productos</a>
+                  <a class="nav-link text-dark" href="./productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                  <a class="nav-link text-dark" href="./contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./dondecomprar.html">Dónde comprar?</a>
+                  <a class="nav-link text-dark" href="./dondecomprar.html">Dónde comprar?</a>
                 </li>
               </ul>
             </div>
@@ -42,15 +44,18 @@
 
     </header>
 
-    <main class="contenedor-cuadrocontacto">
+    <section class="contenedorContacto container-fluid row">
 
-        <div class="tituloContacto">
-        <article>
-        <h1>CONTACTO</h1>
-        </article>
+        <div class="col-md-3 d-none d-sm-block">
+      
+        <h1 class="titulos">CONTACTO</h1>
+        
         </div>
 
-        <div class="cuadroContacto">
+        <div class="col-md-1 col-12"></div>
+
+        <div class="col-md-7 col-12">
+        
         <form>
             <fieldset>
                 <legend>Carga tus datos</legend>
@@ -72,45 +77,49 @@
         
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Su mensaje:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                 </div>
                 
                 <div>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" class="btn btn-dark">
                 </div>
                 
             </fieldset>
         </form>
+        
         </div>
 
-    </main>
+        <div class="col-md-1 col-12"></div>
+        
+
+    </section>
 
     <footer class="mt-auto">
-      <div class="container">
-        <div class="row d-flex">
-
-          <div class="col-6 col-md-6 col-sm-8 col-lg-4 d-flex justify-content-start">
-            <p class="copy">&copy Carolina Collado 2022</p>
-          </div>
-
-          <div class="mailFooter d-flex justify-content-center col-lg-5 d-none d-lg-block">
-              <div class="d-inline-flex">
-                <i class="bi bi-envelope"></i>
-              </div>
-              <div class="d-inline-flex">
-                <p>info@kombucha.com</p>
-              </div>
-          </div>
-        
-          <div class="rrssFooter col-6 col-md-6 col-sm-4 col-lg-3 d-flex justify-content-evenly">
-            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://es.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <div class="container">
+          <div class="row d-flex">
+  
+            <div class="col-6 col-md-6 col-sm-8 col-lg-4 d-flex justify-content-start">
+              <p class="copy">&copy Carolina Collado 2022</p>
+            </div>
+  
+            <div class="mailFooter d-flex justify-content-center col-lg-5 d-none d-lg-block">
+                <div class="d-inline-flex">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="d-inline-flex">
+                  <p>info@kombucha.com</p>
+                </div>
+            </div>
+          
+            <div class="rrssFooter col-6 col-md-6 col-sm-4 col-lg-3 d-flex justify-content-evenly">
+              <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://es.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
