@@ -35,6 +35,14 @@ body {
   margin-top: 180px;
 }
 
+.linkAqui {
+  text-decoration: none;
+  color: black;
+}
+.linkAqui:hover {
+  color: #8deecd;
+}
+
 .contenedorNosotros {
   margin-top: 150px;
 }
