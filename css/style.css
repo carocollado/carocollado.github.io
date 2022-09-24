@@ -59,14 +59,49 @@ body {
   margin-top: 180px;
 }
 
+.field {
+  margin-bottom: 10px;
+}
+.field label {
+  display: block;
+  font-size: 20px;
+  color: #000000;
+}
+.field input {
+  display: block;
+  width: 70vw;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.field textarea {
+  width: 70vw;
+  height: 15vh;
+}
+
+input[type=submit] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 16px;
+  background-color: #9dbfaf;
+  color: #000000;
+  border-radius: 3px;
+  border: none;
+}
+
 .contenedorMapa {
   margin-top: 180px;
 }
 .contenedorMapa .descripcionMapa ul li {
-  text-decoration: underline;
   font-size: 20px;
   font-weight: bold;
   margin-top: 30px;
+}
+.contenedorMapa .descripcionMapa ul li .linkUbicaciones {
+  text-decoration: none;
+  color: black;
+}
+.contenedorMapa .descripcionMapa ul li .linkUbicaciones:hover {
+  color: rgba(35, 70, 58, 0.7725490196);
 }
 
 .copy {
